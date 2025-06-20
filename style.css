@@ -23,8 +23,10 @@ header {
 
 header .logo {
     .logo img {
-    height: 50px;
+    height: 40px;
     width: auto;
+    margin-top: 4px;
+}
 }
 }
 
@@ -47,7 +49,24 @@ nav ul li a {
     background: #FACC15;
     color: #1E3A8A;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 60vh;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
 }
 
 .hero h1 {
